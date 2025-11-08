@@ -1,58 +1,40 @@
-# Hi there, I'm dimitridey2004 👋
 
-<p align="center">
-  <img src="[PASTE A LINK TO A HEADER IMAGE/GIF HERE]" alt="Profile banner" width="800"/>
-</p>
+![MasterHead](https://miro.medium.com/max/1068/0*iJKRaxqxWuWAQYF3.png)
+<h1 align="center">Hi 👋, I'm Dimitri</h1>
+<h3 align="center">An individual with strong interest in software design and development</h3>
+<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/2704414/screenshots/7466903/media/b08ab576316bd4582fef189f471cd9e5.gif">
 
-### 👩‍💻 About Me
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=d-coder111&label=Profile%20views&color=0e75b6&style=flat" alt="d-coder111" /> </p>
 
-I'm a developer and tech enthusiast passionate about [e.g., Web Development, AI, Data Science, etc.]. I love building projects that solve real-world problems and am always eager to learn new technologies.
+- 🔭 I’m currently working on **My Portfolio Website.**
 
-* 🌱 I’m currently learning **[Your Current Technology, e.g., React Native or TensorFlow]**.
-* 👯 I’m looking to collaborate on **[Types of projects, e.g., open-source web apps]**.
-* 🤔 I’m looking for help with **[A topic you are stuck on]**.
-* 💬 Ask me about **[Topics you are confident in, e.g., Python, JavaScript, or UI/UX Design]**.
-* 📫 How to reach me: **[your.email@example.com]**
-* ⚡ Fun fact: **[A fun, non-technical fact about you]**
+- 🌱 I’m currently learning **Computer vision.**
 
----
+- 💬 Ask me about **Python, Machine Learning, Java, MySQL.**
 
-### 💻 My Tech Stack
+- ⚡ Fun fact **-I am a music lover.**
 
-Here are some of the technologies I work with:
-
-| Category | Technologies |
-| :--- | :--- |
-| **Languages** | `[JavaScript]` `[Python]` `[Java]` `[C++]` |
-| **Frontend** | `[React]` `[HTML5]` `[CSS3]` `[Tailwind CSS]` |
-| **Backend** | `[Node.js]` `[Express.js]` `[Django]` |
-| **Databases** | `[MongoDB]` `[PostgreSQL]` `[MySQL]` |
-| **Tools & Platforms** | `[Git]` `[GitHub]` `[Docker]` `[Figma]` `[Vercel]` |
-
----
-
-### 📊 My GitHub Stats
-
-<p align="center">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=dimitridey2004&show_icons=true&theme=radical&rank_icon=github" alt="dimitridey2004's GitHub Stats" />
-  <br/><br/>
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dimitridey2004&layout=compact&theme=radical" alt="dimitridey2004's Top Languages" />
-</p>
-
----
-
-### 📫 Let's Connect!
-
-You can find me on these platforms:
-
+<h3 align="left">Connect with me:</h3>
 <p align="left">
-  <a href="https://www.linkedin.com/in/[your-linkedin-username]" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="https://twitter.com/[your-twitter-username]" target="_blank">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
-  </a>
-  <a href="[your-portfolio-website.com]" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-333333?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0wIDE4Yy00LjQxIDAtOC0zLjU5LTgtOHMzLjU5LTggOC04IDggMy41OSA4IDh6bS0xLTQtNC00aDhsLTR6bS00IDRoOHYtMkg3djJ6Ii8+PC9zdmc+" alt="Portfolio"/>
-  </a>
+<a href="https://twitter.com/div8888" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="div8888" height="30" width="40" /></a>
 </p>
+
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://azure.microsoft.com/en-in/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="azure" width="40" height="40"/> </a> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://www.mathworks.com/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> </p>
+
+<p>&nbsp;<img align="center" src="https://github-readme-stats-eight-theta.vercel.app/api?username=d-coder111&show_icons=true&locale=en&theme=dark" alt="d-coder111" /></p>
+
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=d-coder111&theme=dark" alt="d-coder111" /></p>
+
+[![An image of @dcoder111's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/dcoder111)](https://holopin.io/@dcoder111)
+
+<img alt="thankyou" width="550" src="./Assets/thank-you-winnie-the-pooh.gif">
+
+
+
+ 
+### Show some ❤️ by starring some of the repositories💫!</strong>
+  
+
+     
+<img src="./Assets/cat-jump.gif" height="80px">
