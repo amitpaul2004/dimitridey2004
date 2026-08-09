@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="310" viewBox="0 0 850 310">
+  <defs>
+    <style>
+      @keyframes blink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+      @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+      @keyframes slideUp {
+        from { opacity: 0; transform: translateY(10px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes scanline {
+        0% { transform: translateY(-100%); }
+        100% { transform: translateY(100%); }
+      }
+      @keyframes glowPulse {
+        0%, 100% { filter: drop-shadow(0 0 2px rgba(88,166,255,0.3)); }
+        50% { filter: drop-shadow(0 0 8px rgba(88,166,255,0.6)); }
+      }
+      @keyframes typewriter {
+        from { width: 0; }
+        to { width: 100%; }
+      }
+
+      text {
+        font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+      }
+
+      /* Terminal chrome */
+      .term-bg { fill: #0d1117; }
+      .term-border { fill: none; stroke: #30363d; stroke-width: 1; }
+      .titlebar { fill: #161b22; }
+      .titlebar-line { stroke: #30363d; stroke-width: 0.5; }
+      .dot-red { fill: #ff5f57; }
+      .dot-yellow { fill: #febc2e; }
+      .dot-green { fill: #28c840; }
+
+      /* Text styles */
+      .title-text { font-size: 11px; fill: #6e7681; }
+      .prompt-sym { font-size: 12px; fill: #7ee787; }
+      .cmd-text { font-size: 12px; fill: #e6edf3; }
+      .art { font-size: 11px; fill: #58a6ff; }
+      .art-dim { font-size: 11px; fill: #1f6feb; }
+      .tagline { font-size: 12px; fill: #8b949e; }
+      .accent { font-size: 12px; fill: #f0883e; }
+      .sep { font-size: 12px; fill: #484f58; }
+      .cursor-block { fill: #7ee787; animation: blink 1s step-end infinite; }
+
+      /* Staggered fade-in animations */
+      .s0  { opacity: 0; animation: slideUp 0.6s ease-out 0.2s forwards; }
+      .s1  { opacity: 0; animation: fadeIn  0.4s ease-out 0.6s forwards; }
+      .s2  { opacity: 0; animation: fadeIn  0.4s ease-out 0.75s forwards; }
+      .s3  { opacity: 0; animation: fadeIn  0.4s ease-out 0.9s forwards; }
+      .s4  { opacity: 0; animation: fadeIn  0.4s ease-out 1.05s forwards; }
+      .s5  { opacity: 0; animation: fadeIn  0.4s ease-out 1.2s forwards; }
+      .s6  { opacity: 0; animation: fadeIn  0.4s ease-out 1.35s forwards; }
+      .s7  { opacity: 0; animation: fadeIn  0.4s ease-out 1.5s forwards; }
+      .s8  { opacity: 0; animation: fadeIn  0.4s ease-out 1.65s forwards; }
+      .s9  { opacity: 0; animation: fadeIn  0.4s ease-out 1.8s forwards; }
+      .s10 { opacity: 0; animation: fadeIn  0.4s ease-out 1.95s forwards; }
+      .s11 { opacity: 0; animation: fadeIn  0.4s ease-out 2.1s forwards; }
+      .s12 { opacity: 0; animation: slideUp 0.6s ease-out 2.4s forwards; }
+      .s13 { opacity: 0; animation: slideUp 0.6s ease-out 2.7s forwards; }
+      .s14 { opacity: 0; animation: fadeIn  0.5s ease-out 3.0s forwards; }
+
+      /* Glow group */
+      .glow-group { animation: glowPulse 4s ease-in-out 1.8s infinite; }
+    </style>
+
+    <!-- Glow filter for the ASCII art -->
+    <filter id="termGlow" x="-5%" y="-5%" width="110%" height="110%">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Subtle noise pattern for terminal background -->
+    <filter id="noise">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="4" stitchTiles="stitch" result="noise"/>
+      <feColorMatrix type="saturate" values="0" in="noise" result="grayNoise"/>
+      <feBlend in="SourceGraphic" in2="grayNoise" mode="multiply" result="blend"/>
+      <feComponentTransfer in="blend">
+        <feFuncA type="linear" slope="0.03"/>
+      </feComponentTransfer>
+    </filter>
+  </defs>
+
+  <!-- ==================== TERMINAL WINDOW ==================== -->
+
+  <!-- Background -->
+  <rect class="term-bg" width="850" height="310" rx="10"/>
+  <rect class="term-border" width="850" height="310" rx="10"/>
+
+  <!-- Title bar -->
+  <rect class="titlebar" width="850" height="34" rx="10"/>
+  <rect class="titlebar" y="22" width="850" height="12"/>
+  <line class="titlebar-line" x1="0" y1="34" x2="850" y2="34"/>
+
+  <!-- Traffic light buttons -->
+  <circle class="dot-red" cx="20" cy="17" r="6"/>
+  <circle class="dot-yellow" cx="40" cy="17" r="6"/>
+  <circle class="dot-green" cx="60" cy="17" r="6"/>
+
+  <!-- Title bar text -->
+  <text class="title-text" x="425" y="21" text-anchor="middle">dimitridey2004@github: ~$ ./wordart.sh --name</text>
+
+  <!-- ==================== CONTENT ==================== -->
+
+  <!-- Command prompt line -->
+  <g class="s0">
+    <text xml:space="preserve" x="22" y="58">
+      <tspan class="prompt-sym">❯ </tspan><tspan class="cmd-text">./wordart.sh --style=blocks --name="DIMITRI DEY"</tspan>
+    </text>
+  </g>
+
+  <!-- ASCII Art: DIMITRI DEV (block $ style, 7 rows) -->
+  <g filter="url(#termGlow)" class="glow-group">
+    <!-- Row 1 -->
+    <text class="art s1" xml:space="preserve" x="22" y="88">
+$$$$$$   $$$$  $$     $$  $$$$  $$$$$$$$  $$$$$$   $$$$      $$$$$   $$$$$$  $$    $$</text>
+    <!-- Row 2 -->
+    <text class="art s2" xml:space="preserve" x="22" y="104">
+$$   $$   $$   $$$   $$$   $$      $$     $$   $$   $$       $$  $$  $$      $$    $$</text>
+    <!-- Row 3 -->
+    <text class="art s3" xml:space="preserve" x="22" y="120">
+$$   $$   $$   $$ $ $ $$   $$      $$     $$   $$   $$       $$  $$  $$       $$  $$ </text>
+    <!-- Row 4 -->
+    <text class="art s4" xml:space="preserve" x="22" y="136">
+$$   $$   $$   $$  $  $$   $$      $$     $$$$$$    $$       $$  $$  $$$$$    $$$$  </text>
+    <!-- Row 5 -->
+    <text class="art s5" xml:space="preserve" x="22" y="152">
+$$   $$   $$   $$     $$   $$      $$     $$  $$    $$       $$  $$  $$         $$   </text>
+    <!-- Row 6 -->
+    <text class="art s6" xml:space="preserve" x="22" y="168">
+$$   $$   $$   $$     $$   $$      $$     $$   $$   $$       $$  $$  $$         $$   </text>
+    <!-- Row 7 -->
+    <text class="art s7" xml:space="preserve" x="22" y="184">
+$$$$$$   $$$$  $$     $$  $$$$     $$     $$   $$  $$$$      $$$$$   $$$$$$     $$   </text>
+  </g>
+
+  <!-- Decorative separator line -->
+  <g class="s8">
+    <text class="sep" xml:space="preserve" x="22" y="206">────────────────────────────────────────────────────────────────────────────────────</text>
+  </g>
+
+  <!-- Tagline with role -->
+  <g class="s12">
+    <text xml:space="preserve" x="22" y="228">
+      <tspan class="tagline">⚡ </tspan><tspan class="accent">Full-Stack Engineer</tspan><tspan class="sep"> │ </tspan><tspan class="tagline">Building the future, one commit at a time</tspan>
+    </text>
+  </g>
+
+  <!-- System info line -->
+  <g class="s13">
+    <text xml:space="preserve" x="22" y="250">
+      <tspan class="tagline">📦 OS: GitHub </tspan><tspan class="sep"> │ </tspan><tspan class="tagline">Shell: bash 5.2 </tspan><tspan class="sep"> │ </tspan><tspan class="tagline">Uptime: ∞</tspan>
+    </text>
+  </g>
+
+  <!-- Bottom prompt with blinking cursor -->
+  <g class="s14">
+    <text xml:space="preserve" x="22" y="278">
+      <tspan class="prompt-sym">❯ </tspan>
+    </text>
+    <rect class="cursor-block" x="38" y="267" width="8" height="14" rx="1"/>
+  </g>
+
+  <!-- Subtle watermark -->
+  <text class="title-text" x="830" y="300" text-anchor="end" opacity="0.3" font-size="9">gitskins.com</text>
+
+</svg>

@@ -5,7 +5,11 @@
 **Theme:** GitHub · **Style:** Creative · **Agent:** Full-Stack Engineer
 
 ## Header
-> Editing this section in the inspector.
+
+<p align="center">
+  <img src="./terminal-header.svg" alt="Terminal ASCII Art Animation — DIMITRI DEY" width="850" />
+</p>
+
 Hi, I'm **dimitridey2004**. This README is tuned for **personal brand** with a GitHub visual system.
 <p align="center">
   <picture>
