@@ -7,7 +7,7 @@
 ## Header
 
 <p align="center">
-  <img src="./terminal-header.svg" alt="Terminal ASCII Art Animation — DIMITRI DEV" width="850" />
+  <img src="./terminal-header.svg" alt="Terminal ASCII Art Animation — DIMITRI DEY" width="850" />
 </p>
 
 Hi, I'm **dimitridey2004**. This README is tuned for **personal brand** with a GitHub visual system.

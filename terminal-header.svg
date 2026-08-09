@@ -115,7 +115,7 @@
   <!-- Command prompt line -->
   <g class="s0">
     <text xml:space="preserve" x="22" y="58">
-      <tspan class="prompt-sym">❯ </tspan><tspan class="cmd-text">./wordart.sh --style=blocks --name="DIMITRI DEV"</tspan>
+      <tspan class="prompt-sym">❯ </tspan><tspan class="cmd-text">./wordart.sh --style=blocks --name="DIMITRI DEY"</tspan>
     </text>
   </g>
 
@@ -129,16 +129,16 @@ $$$$$$   $$$$  $$     $$  $$$$  $$$$$$$$  $$$$$$   $$$$      $$$$$   $$$$$$  $$ 
 $$   $$   $$   $$$   $$$   $$      $$     $$   $$   $$       $$  $$  $$      $$    $$</text>
     <!-- Row 3 -->
     <text class="art s3" xml:space="preserve" x="22" y="120">
-$$   $$   $$   $$ $ $ $$   $$      $$     $$   $$   $$       $$  $$  $$      $$    $$</text>
+$$   $$   $$   $$ $ $ $$   $$      $$     $$   $$   $$       $$  $$  $$       $$  $$ </text>
     <!-- Row 4 -->
     <text class="art s4" xml:space="preserve" x="22" y="136">
-$$   $$   $$   $$  $  $$   $$      $$     $$$$$$    $$       $$  $$  $$$$$   $$    $$</text>
+$$   $$   $$   $$  $  $$   $$      $$     $$$$$$    $$       $$  $$  $$$$$    $$$$  </text>
     <!-- Row 5 -->
     <text class="art s5" xml:space="preserve" x="22" y="152">
-$$   $$   $$   $$     $$   $$      $$     $$  $$    $$       $$  $$  $$       $$  $$ </text>
+$$   $$   $$   $$     $$   $$      $$     $$  $$    $$       $$  $$  $$         $$   </text>
     <!-- Row 6 -->
     <text class="art s6" xml:space="preserve" x="22" y="168">
-$$   $$   $$   $$     $$   $$      $$     $$   $$   $$       $$  $$  $$        $$$$  </text>
+$$   $$   $$   $$     $$   $$      $$     $$   $$   $$       $$  $$  $$         $$   </text>
     <!-- Row 7 -->
     <text class="art s7" xml:space="preserve" x="22" y="184">
 $$$$$$   $$$$  $$     $$  $$$$     $$     $$   $$  $$$$      $$$$$   $$$$$$     $$   </text>
