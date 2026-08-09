@@ -21,9 +21,9 @@
         0%, 100% { filter: drop-shadow(0 0 2px rgba(88,166,255,0.3)); }
         50% { filter: drop-shadow(0 0 8px rgba(88,166,255,0.6)); }
       }
-      @keyframes typewriter {
-        from { width: 0; }
-        to { width: 100%; }
+      @keyframes portraitGlow {
+        0%, 100% { filter: drop-shadow(0 0 2px rgba(126,231,135,0.2)); }
+        50% { filter: drop-shadow(0 0 6px rgba(126,231,135,0.4)); }
       }
 
       text {
@@ -44,11 +44,11 @@
       .prompt-sym { font-size: 12px; fill: #7ee787; }
       .cmd-text { font-size: 12px; fill: #e6edf3; }
       .art { font-size: 11px; fill: #58a6ff; }
-      .art-dim { font-size: 11px; fill: #1f6feb; }
       .tagline { font-size: 12px; fill: #8b949e; }
       .accent { font-size: 12px; fill: #f0883e; }
       .sep { font-size: 12px; fill: #484f58; }
       .cursor-block { fill: #7ee787; animation: blink 1s step-end infinite; }
+      .portrait-art { font-size: 5.5px; fill: #8b949e; }
 
       /* Staggered fade-in animations */
       .s0  { opacity: 0; animation: slideUp 0.6s ease-out 0.2s forwards; }
@@ -67,8 +67,18 @@
       .s13 { opacity: 0; animation: slideUp 0.6s ease-out 2.7s forwards; }
       .s14 { opacity: 0; animation: fadeIn  0.5s ease-out 3.0s forwards; }
 
-      /* Glow group */
+      /* Portrait animations */
+      .p1  { opacity: 0; animation: fadeIn 0.3s ease-out 0.8s forwards; }
+      .p2  { opacity: 0; animation: fadeIn 0.3s ease-out 1.0s forwards; }
+      .p3  { opacity: 0; animation: fadeIn 0.3s ease-out 1.2s forwards; }
+      .p4  { opacity: 0; animation: fadeIn 0.3s ease-out 1.4s forwards; }
+      .p5  { opacity: 0; animation: fadeIn 0.3s ease-out 1.6s forwards; }
+      .p6  { opacity: 0; animation: fadeIn 0.3s ease-out 1.8s forwards; }
+      .p7  { opacity: 0; animation: fadeIn 0.3s ease-out 2.0s forwards; }
+
+      /* Glow groups */
       .glow-group { animation: glowPulse 4s ease-in-out 1.8s infinite; }
+      .portrait-glow { animation: portraitGlow 4s ease-in-out 2.0s infinite; fill: #7ee787; }
     </style>
 
     <!-- Glow filter for the ASCII art -->
@@ -80,14 +90,12 @@
       </feMerge>
     </filter>
 
-    <!-- Subtle noise pattern for terminal background -->
-    <filter id="noise">
-      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="4" stitchTiles="stitch" result="noise"/>
-      <feColorMatrix type="saturate" values="0" in="noise" result="grayNoise"/>
-      <feBlend in="SourceGraphic" in2="grayNoise" mode="multiply" result="blend"/>
-      <feComponentTransfer in="blend">
-        <feFuncA type="linear" slope="0.03"/>
-      </feComponentTransfer>
+    <filter id="portraitBlur" x="-5%" y="-5%" width="110%" height="110%">
+      <feGaussianBlur stdDeviation="1.0" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
     </filter>
   </defs>
 
@@ -108,9 +116,9 @@
   <circle class="dot-green" cx="60" cy="17" r="6"/>
 
   <!-- Title bar text -->
-  <text class="title-text" x="425" y="21" text-anchor="middle">dimitridey2004@github: ~$ ./wordart.sh --name</text>
+  <text class="title-text" x="425" y="21" text-anchor="middle">dimitridey2004@github: ~$ ./dashboard.sh</text>
 
-  <!-- ==================== CONTENT ==================== -->
+  <!-- ==================== LEFT CONTENT (WORDART) ==================== -->
 
   <!-- Command prompt line -->
   <g class="s0">
@@ -119,7 +127,7 @@
     </text>
   </g>
 
-  <!-- ASCII Art: DIMITRI DEV (block $ style, 7 rows) -->
+  <!-- ASCII Art: DIMITRI DEY (block $ style, 7 rows) -->
   <g filter="url(#termGlow)" class="glow-group">
     <!-- Row 1 -->
     <text class="art s1" xml:space="preserve" x="22" y="88">
@@ -146,7 +154,7 @@ $$$$$$   $$$$  $$     $$  $$$$     $$     $$   $$  $$$$      $$$$$   $$$$$$     
 
   <!-- Decorative separator line -->
   <g class="s8">
-    <text class="sep" xml:space="preserve" x="22" y="206">────────────────────────────────────────────────────────────────────────────────────</text>
+    <text class="sep" xml:space="preserve" x="22" y="206">─────────────────────────────────────────────────────────────────────────</text>
   </g>
 
   <!-- Tagline with role -->
@@ -169,6 +177,58 @@ $$$$$$   $$$$  $$     $$  $$$$     $$     $$   $$  $$$$      $$$$$   $$$$$$     
       <tspan class="prompt-sym">❯ </tspan>
     </text>
     <rect class="cursor-block" x="38" y="267" width="8" height="14" rx="1"/>
+  </g>
+
+  <!-- ==================== VERTICAL DIVIDER ==================== -->
+  <g class="s2">
+    <line x1="590" y1="50" x2="590" y2="280" stroke="#30363d" stroke-width="1" stroke-dasharray="4,4"/>
+  </g>
+
+  <!-- ==================== RIGHT CONTENT (PORTRAIT) ==================== -->
+
+  <g class="s0">
+    <text xml:space="preserve" x="610" y="58">
+      <tspan class="prompt-sym">❯ </tspan><tspan class="cmd-text">./portrait.sh</tspan>
+    </text>
+  </g>
+
+  <g filter="url(#portraitBlur)" class="portrait-glow">
+    <text class="portrait-art" xml:space="preserve" x="610" y="75">
+      <tspan x="610" dy="6" class="p1">                             ...::::...</tspan>
+      <tspan x="610" dy="6" class="p1">                        ..:---========---:..</tspan>
+      <tspan x="610" dy="6" class="p1">                     .:-==++++++++++++++++==-.</tspan>
+      <tspan x="610" dy="6" class="p1">                   .-=++++++++++++++++++++++++=-.</tspan>
+      <tspan x="610" dy="6" class="p2">                 .-=++++++++++++++++++++++++++++=-.</tspan>
+      <tspan x="610" dy="6" class="p2">                .-=++++++++++++++++++++++++++++++=-.</tspan>
+      <tspan x="610" dy="6" class="p2">               .-=+++++++++++----------+++++++++++=-.</tspan>
+      <tspan x="610" dy="6" class="p2">              .-=+++++++++=-............-=+++++++++=-.</tspan>
+      <tspan x="610" dy="6" class="p3">             .-=++++++++=-................-=++++++++=-.</tspan>
+      <tspan x="610" dy="6" class="p3">             -=++++++++=-..----......----..-=++++++++=-</tspan>
+      <tspan x="610" dy="6" class="p3">            .-=+++++++=-..-====-....-====-..-=+++++++=-.</tspan>
+      <tspan x="610" dy="6" class="p3">            -=+++++++=-...-====-....-====-...-=+++++++=-</tspan>
+      <tspan x="610" dy="6" class="p4">            -=+++++++=-...-====-....-====-...-=+++++++=-</tspan>
+      <tspan x="610" dy="6" class="p4">            -=+++++++=-....----......----....-=+++++++=-</tspan>
+      <tspan x="610" dy="6" class="p4">            -=+++++++=-......................-=+++++++=-</tspan>
+      <tspan x="610" dy="6" class="p4">            -=+++++++=-........-....-........-=+++++++=-</tspan>
+      <tspan x="610" dy="6" class="p5">            .-=+++++++=-........----........-=+++++++=-.</tspan>
+      <tspan x="610" dy="6" class="p5">             -=++++++++=-..................-=++++++++=-</tspan>
+      <tspan x="610" dy="6" class="p5">             .-=++++++++=-................-=++++++++=-.</tspan>
+      <tspan x="610" dy="6" class="p5">              .-=+++++++++=-............-=+++++++++=-.</tspan>
+      <tspan x="610" dy="6" class="p6">               .-=+++++++++++----------+++++++++++=-.</tspan>
+      <tspan x="610" dy="6" class="p6">                .-=++++++++++++++++++++++++++++++=-.</tspan>
+      <tspan x="610" dy="6" class="p6">                 .-=++++++++++++++++++++++++++++=-.</tspan>
+      <tspan x="610" dy="6" class="p6">                   .-=++++++++++++++++++++++++=-.</tspan>
+      <tspan x="610" dy="6" class="p7">                     .:-==++++++++++++++++==-.</tspan>
+      <tspan x="610" dy="6" class="p7">                        ..:---========---:..</tspan>
+      <tspan x="610" dy="6" class="p7">                    ...:::---==========---:::...</tspan>
+      <tspan x="610" dy="6" class="p7">                ..:--==++++++++++++++++++++++==--:..</tspan>
+      <tspan x="610" dy="6" class="p7">             ..:-==++++++++++++++++++++++++++++++==-:..</tspan>
+      <tspan x="610" dy="6" class="p7">           .:-==++++++++++++++++++++++++++++++++++++==-.</tspan>
+      <tspan x="610" dy="6" class="p7">         .:-==++++++++++++++++++++++++++++++++++++++++==-.</tspan>
+      <tspan x="610" dy="6" class="p7">       .:-==++++++++++++++++++++++++++++++++++++++++++++==-.</tspan>
+      <tspan x="610" dy="6" class="p7">     .:-==++++++++++++++++++++++++++++++++++++++++++++++++==-.</tspan>
+      <tspan x="610" dy="6" class="p7">    .-==++++++++++++++++++++++++++++++++++++++++++++++++++++==-.</tspan>
+    </text>
   </g>
 
   <!-- Subtle watermark -->
