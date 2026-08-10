@@ -60,12 +60,12 @@ GitHub :: github.com/dimitridey2004
 
 ## `07` — SPACE CONTRIBUTION GAME 🚀
 
-<p align="center"><img src="./space-contribution-game.svg" alt="Animated space contribution game showing GitHub contributions as spaceship fuel" width="100%" /></p>
+<p align="center">
+  <img src="./assets/space-shooter.gif" alt="GitHub contributions transformed into a Space Shooter game" width="100%" />
+</p>
 
-<div align="center">
-
-`CONTRIBUTIONS = FUEL` · `COMMITS = THRUST` · `KEEP SHIPPING = STAY IN ORBIT`
-
-</div>
+<p align="center">
+  <sub>Every contribution becomes an enemy. Every commit adds fuel. Keep coding. Keep shooting. 🚀</sub>
+</p>
 
 <p align="center"><img src="./terminal-divider.svg" alt="Animated terminal divider" width="100%" /></p>
