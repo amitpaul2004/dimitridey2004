@@ -6,20 +6,9 @@
 
 <p align="center"><img src="./terminal-divider.svg" alt="Animated terminal divider" width="100%" /></p>
 
-```text
-┌──────────────────────────────────────────────────────────────────────────────┐
-│  ~/dimitridey2004                                                            │
-│                                                                              │
-│  $ whoami                                                                    │
-│  dimitridey2004                                                              │
-│                                                                              │
-│  $ role                                                                      │
-│  Full-Stack Engineer                                                         │
-│                                                                              │
-│  $ status                                                                    │
-│  ● Online · Building · Learning · Shipping                                   │
-└──────────────────────────────────────────────────────────────────────────────┘
-```
+<p align="center">
+  <img src="./profile-card.svg" alt="Animated DIMITRI DEY developer profile card" width="100%" />
+</p>
 
 ## `01` — About
 
@@ -111,7 +100,5 @@ Workflow :: Build · Test · Refine · Ship
 ```
 
 <div align="center">
-
 <img src="./terminal-divider.svg" alt="Animated terminal divider" width="100%" />
-
 </div>
