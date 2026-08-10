@@ -6,56 +6,21 @@
 
 <p align="center"><img src="./terminal-divider.svg" alt="Animated terminal divider" width="100%" /></p>
 
-<p align="center">
-  <img src="./profile-card.svg" alt="Animated DIMITRI DEY developer profile card" width="100%" />
-</p>
+<p align="center"><img src="./profile-card.svg" alt="DIMITRI DEY profile system card" width="100%" /></p>
 
-## `01` — About
+## `01` — ABOUT
 
-<p align="center"><img src="./terminal-divider.svg" alt="Animated terminal divider" width="100%" /></p>
+<p align="center"><img src="./about-card.svg" alt="About DIMITRI DEY" width="100%" /></p>
 
-```text
-> A developer who enjoys turning ideas into clean, useful software.
->
-> Focus:       Full-Stack Engineering
-> Environment: GitHub · Linux · Bash
-> Mindset:     Build → Learn → Improve
-```
+## `02` — WHAT I BUILD
 
-## `02` — What I Build
+<p align="center"><img src="./projects-card.svg" alt="DIMITRI DEY projects" width="100%" /></p>
 
-<p align="center"><img src="./terminal-divider.svg" alt="Animated terminal divider" width="100%" /></p>
+## `03` — ENGINEERING STYLE
 
-```text
-┌─ PROJECTS ──────────────────────────────────────────────────────────────────┐
-│                                                                              │
-│  $ ls ./projects                                                            │
-│                                                                              │
-│  ├── web-apps/        interfaces, experiences & products                    │
-│  ├── developer-tools/ tools that make workflows simpler                     │
-│  ├── experiments/     ideas, prototypes & technical explorations             │
-│  └── open-source/     projects built to learn and share                     │
-│                                                                              │
-└──────────────────────────────────────────────────────────────────────────────┘
-```
+<p align="center"><img src="./philosophy-card.svg" alt="DIMITRI DEY engineering philosophy" width="100%" /></p>
 
-## `03` — Engineering Style
-
-<p align="center"><img src="./terminal-divider.svg" alt="Animated terminal divider" width="100%" /></p>
-
-```text
-$ cat philosophy.txt
-
-01  Keep it simple.
-02  Build with purpose.
-03  Prefer clean interfaces.
-04  Learn by shipping.
-05  Improve what already works.
-```
-
-## `04` — Tech Environment
-
-<p align="center"><img src="./terminal-divider.svg" alt="Animated terminal divider" width="100%" /></p>
+## `04` — TECH ENVIRONMENT
 
 <p align="center">
 
@@ -65,15 +30,9 @@ $ cat philosophy.txt
 
 </p>
 
-```text
-$ ./environment.sh
+<p align="center"><img src="./environment-card.svg" alt="DIMITRI DEY development environment" width="100%" /></p>
 
-OS       :: GitHub
-Shell    :: bash 5.2
-Workflow :: Build · Test · Refine · Ship
-```
-
-## `05` — GitHub Activity
+## `05` — GITHUB ACTIVITY
 
 <p align="center"><img src="./terminal-divider.svg" alt="Animated terminal divider" width="100%" /></p>
 
@@ -85,20 +44,18 @@ Workflow :: Build · Test · Refine · Ship
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=dimitridey2004&hide_border=true&background=0d1117&ring=7ee787&fire=58a6ff&currStreakLabel=7ee787&sideLabels=8b949e&dates=6e7681&currStreakNum=e6edf3&sideNums=e6edf3" alt="GitHub streak" />
 </p>
 
-## `06` — Connect
+## `06` — CONNECT
 
 <p align="center"><img src="./terminal-divider.svg" alt="Animated terminal divider" width="100%" /></p>
 
+<div align="center">
+
 ```text
-┌─ CONTACT ───────────────────────────────────────────────────────────────────┐
-│                                                                              │
-│  $ echo "Let's build something."                                            │
-│                                                                              │
-│  GitHub   :: github.com/dimitridey2004                                      │
-│                                                                              │
-└──────────────────────────────────────────────────────────────────────────────┘
+$ echo "Let's build something."
+
+GitHub :: github.com/dimitridey2004
 ```
 
-<div align="center">
 <img src="./terminal-divider.svg" alt="Animated terminal divider" width="100%" />
+
 </div>
