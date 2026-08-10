@@ -4,6 +4,8 @@
 
 </div>
 
+<p align="center"><img src="./terminal-divider.svg" alt="Animated terminal divider" width="100%" /></p>
+
 ```text
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │  ~/dimitridey2004                                                            │
@@ -21,6 +23,8 @@
 
 ## `01` — About
 
+<p align="center"><img src="./terminal-divider.svg" alt="Animated terminal divider" width="100%" /></p>
+
 ```text
 > A developer who enjoys turning ideas into clean, useful software.
 >
@@ -30,6 +34,8 @@
 ```
 
 ## `02` — What I Build
+
+<p align="center"><img src="./terminal-divider.svg" alt="Animated terminal divider" width="100%" /></p>
 
 ```text
 ┌─ PROJECTS ──────────────────────────────────────────────────────────────────┐
@@ -46,6 +52,8 @@
 
 ## `03` — Engineering Style
 
+<p align="center"><img src="./terminal-divider.svg" alt="Animated terminal divider" width="100%" /></p>
+
 ```text
 $ cat philosophy.txt
 
@@ -57,6 +65,8 @@ $ cat philosophy.txt
 ```
 
 ## `04` — Tech Environment
+
+<p align="center"><img src="./terminal-divider.svg" alt="Animated terminal divider" width="100%" /></p>
 
 <p align="center">
 
@@ -76,6 +86,8 @@ Workflow :: Build · Test · Refine · Ship
 
 ## `05` — GitHub Activity
 
+<p align="center"><img src="./terminal-divider.svg" alt="Animated terminal divider" width="100%" /></p>
+
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=dimitridey2004&show_icons=true&hide_border=true&bg_color=0d1117&title_color=7ee787&text_color=8b949e&icon_color=58a6ff&rank_icon=github" alt="GitHub statistics" />
 </p>
@@ -85,6 +97,8 @@ Workflow :: Build · Test · Refine · Ship
 </p>
 
 ## `06` — Connect
+
+<p align="center"><img src="./terminal-divider.svg" alt="Animated terminal divider" width="100%" /></p>
 
 ```text
 ┌─ CONTACT ───────────────────────────────────────────────────────────────────┐
@@ -98,10 +112,6 @@ Workflow :: Build · Test · Refine · Ship
 
 <div align="center">
 
-```text
-──────────────────────────────────────────────────────────────────────────────
-                         END OF TRANSMISSION
-──────────────────────────────────────────────────────────────────────────────
-```
+<img src="./terminal-divider.svg" alt="Animated terminal divider" width="100%" />
 
 </div>
