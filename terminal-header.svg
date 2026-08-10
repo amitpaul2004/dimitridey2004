@@ -48,7 +48,7 @@
       .accent { font-size: 12px; fill: #f0883e; }
       .sep { font-size: 12px; fill: #484f58; }
       .cursor-block { fill: #7ee787; animation: blink 1s step-end infinite; }
-      .portrait-art { font-size: 5.5px; fill: #8b949e; }
+      .portrait-art { font-size: 5.5px; fill: #7ee787; }
 
       /* Staggered fade-in animations */
       .s0  { opacity: 0; animation: slideUp 0.6s ease-out 0.2s forwards; }
@@ -184,50 +184,37 @@ $$$$$$   $$$$  $$     $$  $$$$     $$     $$   $$  $$$$      $$$$$   $$$$$$     
     <line x1="590" y1="50" x2="590" y2="280" stroke="#30363d" stroke-width="1" stroke-dasharray="4,4"/>
   </g>
 
-  <!-- ==================== RIGHT CONTENT (PORTRAIT) ==================== -->
+  <!-- ==================== RIGHT CONTENT (PORTRAIT FROM AVATAR.PNG) ==================== -->
 
   <g class="s0">
     <text xml:space="preserve" x="610" y="58">
-      <tspan class="prompt-sym">❯ </tspan><tspan class="cmd-text">./portrait.sh</tspan>
+      <tspan class="prompt-sym">❯ </tspan><tspan class="cmd-text">./portrait.sh --img=avatar.png</tspan>
     </text>
   </g>
 
   <g filter="url(#portraitBlur)" class="portrait-glow">
     <text class="portrait-art" xml:space="preserve" x="610" y="75">
-      <tspan x="610" dy="6" class="p1">                             ...::::...</tspan>
-      <tspan x="610" dy="6" class="p1">                        ..:---========---:..</tspan>
-      <tspan x="610" dy="6" class="p1">                     .:-==++++++++++++++++==-.</tspan>
-      <tspan x="610" dy="6" class="p1">                   .-=++++++++++++++++++++++++=-.</tspan>
-      <tspan x="610" dy="6" class="p2">                 .-=++++++++++++++++++++++++++++=-.</tspan>
-      <tspan x="610" dy="6" class="p2">                .-=++++++++++++++++++++++++++++++=-.</tspan>
-      <tspan x="610" dy="6" class="p2">               .-=+++++++++++----------+++++++++++=-.</tspan>
-      <tspan x="610" dy="6" class="p2">              .-=+++++++++=-............-=+++++++++=-.</tspan>
-      <tspan x="610" dy="6" class="p3">             .-=++++++++=-................-=++++++++=-.</tspan>
-      <tspan x="610" dy="6" class="p3">             -=++++++++=-..----......----..-=++++++++=-</tspan>
-      <tspan x="610" dy="6" class="p3">            .-=+++++++=-..-====-....-====-..-=+++++++=-.</tspan>
-      <tspan x="610" dy="6" class="p3">            -=+++++++=-...-====-....-====-...-=+++++++=-</tspan>
-      <tspan x="610" dy="6" class="p4">            -=+++++++=-...-====-....-====-...-=+++++++=-</tspan>
-      <tspan x="610" dy="6" class="p4">            -=+++++++=-....----......----....-=+++++++=-</tspan>
-      <tspan x="610" dy="6" class="p4">            -=+++++++=-......................-=+++++++=-</tspan>
-      <tspan x="610" dy="6" class="p4">            -=+++++++=-........-....-........-=+++++++=-</tspan>
-      <tspan x="610" dy="6" class="p5">            .-=+++++++=-........----........-=+++++++=-.</tspan>
-      <tspan x="610" dy="6" class="p5">             -=++++++++=-..................-=++++++++=-</tspan>
-      <tspan x="610" dy="6" class="p5">             .-=++++++++=-................-=++++++++=-.</tspan>
-      <tspan x="610" dy="6" class="p5">              .-=+++++++++=-............-=+++++++++=-.</tspan>
-      <tspan x="610" dy="6" class="p6">               .-=+++++++++++----------+++++++++++=-.</tspan>
-      <tspan x="610" dy="6" class="p6">                .-=++++++++++++++++++++++++++++++=-.</tspan>
-      <tspan x="610" dy="6" class="p6">                 .-=++++++++++++++++++++++++++++=-.</tspan>
-      <tspan x="610" dy="6" class="p6">                   .-=++++++++++++++++++++++++=-.</tspan>
-      <tspan x="610" dy="6" class="p7">                     .:-==++++++++++++++++==-.</tspan>
-      <tspan x="610" dy="6" class="p7">                        ..:---========---:..</tspan>
-      <tspan x="610" dy="6" class="p7">                    ...:::---==========---:::...</tspan>
-      <tspan x="610" dy="6" class="p7">                ..:--==++++++++++++++++++++++==--:..</tspan>
-      <tspan x="610" dy="6" class="p7">             ..:-==++++++++++++++++++++++++++++++==-:..</tspan>
-      <tspan x="610" dy="6" class="p7">           .:-==++++++++++++++++++++++++++++++++++++==-.</tspan>
-      <tspan x="610" dy="6" class="p7">         .:-==++++++++++++++++++++++++++++++++++++++++==-.</tspan>
-      <tspan x="610" dy="6" class="p7">       .:-==++++++++++++++++++++++++++++++++++++++++++++==-.</tspan>
-      <tspan x="610" dy="6" class="p7">     .:-==++++++++++++++++++++++++++++++++++++++++++++++++==-.</tspan>
-      <tspan x="610" dy="6" class="p7">    .-==++++++++++++++++++++++++++++++++++++++++++++++++++++==-.</tspan>
+      <tspan x="610" dy="6" class="p1">                  ---: :---:                </tspan>
+      <tspan x="610" dy="6" class="p1">                -- #@@@@@%*:=.              </tspan>
+      <tspan x="610" dy="6" class="p1">              := %@@@##*#@%# =:             </tspan>
+      <tspan x="610" dy="6" class="p2">             -=#%%@@ :--: *@%*=:            </tspan>
+      <tspan x="610" dy="6" class="p2">            :=##*#@*-====-:+@#*=            </tspan>
+      <tspan x="610" dy="6" class="p2">            =.%***+ :====-::@%# =           </tspan>
+      <tspan x="610" dy="6" class="p2">           :=%##* +  :--:  .@%##=           </tspan>
+      <tspan x="610" dy="6" class="p3">           =:@#%   :-:: -:: *##% =          </tspan>
+      <tspan x="610" dy="6" class="p3">           = @%%   ---=:-=-.%#*#%=:         </tspan>
+      <tspan x="610" dy="6" class="p3">           = @%@ + :--::::- @#*##+=         </tspan>
+      <tspan x="610" dy="6" class="p3">           =*@%@# -::-:.:-:%@%*#*+-:        </tspan>
+      <tspan x="610" dy="6" class="p4">           =#@%%@*:-===-: %@@#*#%* =        </tspan>
+      <tspan x="610" dy="6" class="p4">          :=@@%%@@  .:: +@@%%#+###.=        </tspan>
+      <tspan x="610" dy="6" class="p4">        :-=+@%%%@%:::::: #@%#***#**:--.     </tspan>
+      <tspan x="610" dy="6" class="p4">      -- *%@%%@@@@:-===--*@@######*# -=-    </tspan>
+      <tspan x="610" dy="6" class="p5">    := #@@%@@@@@@%-====-:#@@%@%%#**##.:==   </tspan>
+      <tspan x="610" dy="6" class="p5">   -=+*%%@@@@@@@@%--==-. +#%@@@@@# *% ::-=  </tspan>
+      <tspan x="610" dy="6" class="p5">  :=*+*%%@@@@@@@@@:===:    #@@@@@@# ** ::-= </tspan>
+      <tspan x="610" dy="6" class="p6">  = #+#%%@@@@%@@@@*===:   . %@@@@@@*   ::.-=</tspan>
+      <tspan x="610" dy="6" class="p6">  =***#%##@%*#@@%%% =-:::. : %@@@@@#     ::=</tspan>
+      <tspan x="610" dy="6" class="p6"> -=*+#%%*#@* #@%#**%:::::::::*@%%@%%+  .-=-=</tspan>
     </text>
   </g>
 
