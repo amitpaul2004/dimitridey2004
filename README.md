@@ -1,67 +1,107 @@
-# dimitridey2004
+<div align="center">
 
-> Memorable developer positioning.
+<img src="./terminal-header.svg" alt="DIMITRI DEY terminal header" width="100%" />
 
-**Theme:** GitHub · **Style:** Creative · **Agent:** Full-Stack Engineer
+</div>
 
-## Header
+```text
+┌──────────────────────────────────────────────────────────────────────────────┐
+│  ~/dimitridey2004                                                            │
+│                                                                              │
+│  $ whoami                                                                    │
+│  dimitridey2004                                                              │
+│                                                                              │
+│  $ role                                                                      │
+│  Full-Stack Engineer                                                         │
+│                                                                              │
+│  $ status                                                                    │
+│  ● Online · Building · Learning · Shipping                                   │
+└──────────────────────────────────────────────────────────────────────────────┘
+```
+
+## `01` — About
+
+```text
+> A developer who enjoys turning ideas into clean, useful software.
+>
+> Focus:       Full-Stack Engineering
+> Environment: GitHub · Linux · Bash
+> Mindset:     Build → Learn → Improve
+```
+
+## `02` — What I Build
+
+```text
+┌─ PROJECTS ──────────────────────────────────────────────────────────────────┐
+│                                                                              │
+│  $ ls ./projects                                                            │
+│                                                                              │
+│  ├── web-apps/        interfaces, experiences & products                    │
+│  ├── developer-tools/ tools that make workflows simpler                     │
+│  ├── experiments/     ideas, prototypes & technical explorations             │
+│  └── open-source/     projects built to learn and share                     │
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+```
+
+## `03` — Engineering Style
+
+```text
+$ cat philosophy.txt
+
+01  Keep it simple.
+02  Build with purpose.
+03  Prefer clean interfaces.
+04  Learn by shipping.
+05  Improve what already works.
+```
+
+## `04` — Tech Environment
 
 <p align="center">
-<img
-  src="./terminal-header.svg"
-  alt="Terminal ASCII Art Animation — DIMITRI DEY"
-  width="100%"
-/>
+
+![GitHub](https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=7ee787)
+![Bash](https://img.shields.io/badge/Bash-0d1117?style=for-the-badge&logo=gnubash&logoColor=7ee787)
+![Linux](https://img.shields.io/badge/Linux-0d1117?style=for-the-badge&logo=linux&logoColor=7ee787)
+
 </p>
 
-Hi, I'm **dimitridey2004**. This README is tuned for **personal brand** with a GitHub visual system.
+```text
+$ ./environment.sh
+
+OS       :: GitHub
+Shell    :: bash 5.2
+Workflow :: Build · Test · Refine · Ship
+```
+
+## `05` — GitHub Activity
+
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/hero?username=dimitridey2004&theme=github-dark&mode=light" />
-    <img src="https://www.gitskins.com/api/section/hero?username=dimitridey2004&theme=github-dark" alt="dimitridey2004 hero section" />
-  </picture>
-</p>
-## About Me
-Shapes the short profile story and positioning.
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/about?username=dimitridey2004&theme=github-dark&mode=light" />
-    <img src="https://www.gitskins.com/api/section/about?username=dimitridey2004&theme=github-dark" alt="dimitridey2004 about section" />
-  </picture>
-</p>
-## Skills
-Selected stack and skill badges will be generated from the GitHub profile and README strategy.
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/stack?username=dimitridey2004&theme=github-dark&mode=light" />
-    <img src="https://www.gitskins.com/api/section/stack?username=dimitridey2004&theme=github-dark" alt="dimitridey2004 stack section" />
-  </picture>
-</p>
-## GitHub Stats
-GitSkins stat widgets will use the **GitHub** theme.
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/stats?username=dimitridey2004&theme=github-dark&mode=light" />
-    <img src="https://www.gitskins.com/api/section/stats?username=dimitridey2004&theme=github-dark" alt="dimitridey2004 stats section" />
-  </picture>
-</p>
-## Projects
-Highlights repositories as proof of work.
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/projects?username=dimitridey2004&theme=github-dark&mode=light" />
-    <img src="https://www.gitskins.com/api/section/projects?username=dimitridey2004&theme=github-dark" alt="dimitridey2004 projects section" />
-  </picture>
-</p>
-## Heatmap
-Animated year-long contribution calendar.
-## Connect
-Contact and social links will appear here.
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/social?username=dimitridey2004&theme=github-dark&mode=light" />
-    <img src="https://www.gitskins.com/api/section/social?username=dimitridey2004&theme=github-dark" alt="dimitridey2004 social section" />
-  </picture>
+  <img src="https://github-readme-stats.vercel.app/api?username=dimitridey2004&show_icons=true&hide_border=true&bg_color=0d1117&title_color=7ee787&text_color=8b949e&icon_color=58a6ff&rank_icon=github" alt="GitHub statistics" />
 </p>
 
-<!-- Sections: Header, About Me, Skills, GitHub Stats, Projects, Heatmap, Connect -->
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=dimitridey2004&hide_border=true&background=0d1117&ring=7ee787&fire=58a6ff&currStreakLabel=7ee787&sideLabels=8b949e&dates=6e7681&currStreakNum=e6edf3&sideNums=e6edf3" alt="GitHub streak" />
+</p>
+
+## `06` — Connect
+
+```text
+┌─ CONTACT ───────────────────────────────────────────────────────────────────┐
+│                                                                              │
+│  $ echo "Let's build something."                                            │
+│                                                                              │
+│  GitHub   :: github.com/dimitridey2004                                      │
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+```
+
+<div align="center">
+
+```text
+──────────────────────────────────────────────────────────────────────────────
+                         END OF TRANSMISSION
+──────────────────────────────────────────────────────────────────────────────
+```
+
+</div>
