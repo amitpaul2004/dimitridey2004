@@ -56,6 +56,16 @@ $ echo "Let's build something."
 GitHub :: github.com/dimitridey2004
 ```
 
-<img src="./terminal-divider.svg" alt="Animated terminal divider" width="100%" />
+</div>
+
+## `07` — SPACE CONTRIBUTION GAME 🚀
+
+<p align="center"><img src="./space-contribution-game.svg" alt="Animated space contribution game showing GitHub contributions as spaceship fuel" width="100%" /></p>
+
+<div align="center">
+
+`CONTRIBUTIONS = FUEL` · `COMMITS = THRUST` · `KEEP SHIPPING = STAY IN ORBIT`
 
 </div>
+
+<p align="center"><img src="./terminal-divider.svg" alt="Animated terminal divider" width="100%" /></p>
