@@ -25,7 +25,6 @@
   <rect class="titlebar" width="850" height="34" rx="10"/><rect class="titlebar" y="22" width="850" height="12"/><line class="titlebar-line" x1="0" y1="34" x2="850" y2="34"/>
   <circle class="dot-red" cx="20" cy="17" r="6"/><circle class="dot-yellow" cx="40" cy="17" r="6"/><circle class="dot-green" cx="60" cy="17" r="6"/>
   <text class="title-text" x="425" y="21" text-anchor="middle">dimitridey2004@github: ~$ ./dashboard.sh</text>
-
   <g class="s0"><text xml:space="preserve" x="22" y="58"><tspan class="prompt-sym">❯ </tspan><tspan class="cmd-text">./wordart.sh --style=blocks --name="DIMITRI DEY"</tspan></text></g>
   <g filter="url(#termGlow)">
     <text class="art s1" xml:space="preserve" x="22" y="88">$$$$$$   $$$$  $$     $$  $$$$  $$$$$$$$  $$$$$$   $$$$      $$$$$   $$$$$$  $$    $$</text>
@@ -40,13 +39,11 @@
   <g class="s12"><text xml:space="preserve" x="22" y="228"><tspan class="tagline">⚡ </tspan><tspan class="accent">Full-Stack Engineer</tspan><tspan class="sep"> │ </tspan><tspan class="tagline">Building the future, one commit at a time</tspan></text></g>
   <g class="s13"><text xml:space="preserve" x="22" y="250"><tspan class="tagline">📦 OS: GitHub </tspan><tspan class="sep"> │ </tspan><tspan class="tagline">Shell: bash 5.2 </tspan><tspan class="sep"> │ </tspan><tspan class="tagline">Uptime: ∞</tspan></text></g>
   <g class="s14"><text xml:space="preserve" x="22" y="278"><tspan class="prompt-sym">❯ </tspan></text><rect class="cursor-block" x="38" y="267" width="8" height="14" rx="1"/></g>
-
   <g class="s2"><line x1="590" y1="50" x2="590" y2="280" stroke="#30363d" stroke-width="1" stroke-dasharray="4,4"/></g>
-
   <g class="s0"><text xml:space="preserve" x="602" y="58"><tspan class="prompt-sym">❯ </tspan><tspan class="portrait-cmd">./portrait.sh --img=avatar.png</tspan></text></g>
 
-  <!-- Animated ASCII portrait recreated from the supplied reference image -->
-  <g clip-path="url(#rightPanel)" filter="url(#portraitBlur)" class="portrait-glow">
+  <!-- Animated ASCII portrait: horizontally widened and kept centered in the right panel -->
+  <g clip-path="url(#rightPanel)" transform="translate(720 0) scale(1.18 1) translate(-720 0)" filter="url(#portraitBlur)" class="portrait-glow">
     <text class="portrait-art" xml:space="preserve" x="611" y="78">
         <tspan x="611" dy="5.1" class="pa1">                      .....</tspan>
         <tspan x="611" dy="5.1" class="pa2">                     .:=+*+=-:.</tspan>
@@ -88,6 +85,5 @@
     </text>
     <rect x="603" y="75" width="230" height="1" fill="#7ee787" opacity=".12" style="animation:scan 3.8s linear 2.2s infinite"/>
   </g>
-
   <text class="title-text" x="830" y="300" text-anchor="end" opacity="0.3" font-size="9">gitskins.com</text>
 </svg>
